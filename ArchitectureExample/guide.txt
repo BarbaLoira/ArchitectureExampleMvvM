@@ -1,0 +1,73 @@
+gradle 
+
+apply plugin: 'kotlin-kapt'
+converter projeto para androidx
+colocar os "gradles"
+
+--------------------------------------
+criar entity,dao,notedatabase,repository,viewmodel,mainactivity(colocar o viewmodel)
+
+------------------------------------------
+criar note_item.xml 
+
+*    
+
+  android:textAppearance="@style/TextAppearance.AppCompat.Large"
+
+
+ android:layout_toStartOf="@id/text_view_priority"
+                  android:layout_alignParentStart="true"
+                  android:ellipsize="end"
+
+mostrar boa praticar de se colocar icon
+----------------------------
+
+colocar recycleview no mainactivity
+
+
+----------------
+
+
+criar adapter e set
+
+--------
+pegar os icons do proprio android studio ferramenta
+
+-------------------------------
+
+mostrar as cores material pallet e mudar o style
+ <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+
+-------
+
+criar tela de add nova nota o xml
+se atentar para os padores de como compor a tela (site material design)
+
+----------------------------
+
+criar menu resource folder para colocar o save to toolbar
+
+-----
+criar tela de add nova nota  o kt
+--------------- 
+criar savenotes metodo na main
+acao floating button
+e constantes
+requestresult
+
+------
+pro back button
+  <activity android:name=".gui.AddNoteActivity"
+                  android:parentActivityName=".MainActivity"
+
+e    android:launchMode="singleTop"
+        >
+
+
+------
+
+deletar os notes
+
+
+
+
